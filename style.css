@@ -53,10 +53,29 @@ body {
 .images {
 	width: 50%;
 	height: 50%;
-	background-color: white;
+	background-color: rgb(21, 142, 179);
+	font-size: 50px;
 }
 
 .images:hover {
 	background-color: lightblue;
 	cursor: pointer;
+}
+
+#warning1 {
+	color: black;
+	font-size: 100px;
+	text-align: center;
+	position: fixed;
+	top: 25%;
+	left: 15%;
+}
+
+#warning {
+	position: fixed;
+	top: 0.5%;
+	left: 0.5%;
+	height: 99%;
+	width: 99%;
+	cursor: none;
 }
